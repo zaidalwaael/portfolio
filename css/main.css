@@ -302,6 +302,10 @@ header .container .nav li a:hover {
 }
 /* end about-page */
 
+/* =========================
+   Start Career Journey
+========================= */
+
 .career-journey {
   margin-top: 100px;
 }
@@ -346,14 +350,12 @@ header .container .nav li a:hover {
 .career-journey .careeres .career span {
   color: var(--primary-font-color);
 }
-.career-journey .careeres .career.done {
-  border-color: hsl(var(--secondary-font-color));
-}
-
-.career-journey .careeres .career.learning {
-  border-color: var(--border-color);
+.career-journey .careeres .career {
+ border-color: var(--border-color);
   animation: glow-pulse 3s ease-in-out infinite;
 }
+
+
 .career-journey .careeres .line {
   height: 2px;
   background-color: hsl(var(--secondary-font-color));
